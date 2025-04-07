@@ -2,7 +2,7 @@ wires: dict[str, object] = {}
 
 def main():
   content: str
-  with open('input.txt') as file:
+  with open('input_test.txt') as file:
     content = file.read()
 
   rvalues, expressions = content.split('\n\n')
